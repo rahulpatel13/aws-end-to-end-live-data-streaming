@@ -17,7 +17,7 @@ IOS-- https://apps.apple.com/us/app/sensor-logger/id1531582925 \
 ii. Follow the Steps in the photo given below\
 Step 1. Enable for Ambient Sensor for this particular project(feel free to customize)\
 Step 2. Go to Settings and Refer the image below enable http push , set the url the one which you will get while deploying the API 
-![Architecture Diagram](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Architecture Diagram](https://github.com/rahulpatel13/aws-end-to-end-live-data-streaming/blob/main/http%20push%20photo.png)
 
 iii. This Application will send the data in JSON format to API Gateway
 ```bash
