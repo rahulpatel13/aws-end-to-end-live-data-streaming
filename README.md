@@ -95,10 +95,9 @@ viii.Enable Backup Setting and select your backup json bucket\
 ix.Configure the backup bucket you created and set a prefix for your choice . (You can choose the same bucket as well)
 
 
-
-
-
-
+##Screenshot
+Architecture Diagram
+![Architecture Diagram](https://github.com/rahulpatel13/aws-end-to-end-live-data-streaming/blob/main/datastreaming)
 
 
 
