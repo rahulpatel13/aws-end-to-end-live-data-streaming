@@ -90,14 +90,11 @@ iii.In source settings choose your kinesis stream which you have created\
 iv.Select Destination as S3 Bucket\
 v.Enable record format conversion and format as Parquet Apache\
 vi.Select Glue Region where you created you glue and select database and table\
-vii.Select destination as your s3 bucket and change the bucket size to 64MB as we are using parquet format is very light weight  , buffer interval to 60Sec\
+vii.Select destination as your s3 bucket and change the bucket size to 64MB as we are using parquet format is very lightweight  , and buffer interval to 60Sec\
 viii.Enable Backup Setting and select your backup json bucket\
-ix.Configure the backup bucket you created and set a prefix for your choice . (You can choose the same bucket as well)
+ix.Configure the backup bucket you created and set a prefix for your choice. (You can choose the same bucket as well)
 
 
-##Screenshot
-Architecture Diagram
-![Architecture Diagram](https://github.com/rahulpatel13/aws-end-to-end-live-data-streaming/blob/main/datastreaming)
 
 
 
@@ -109,5 +106,10 @@ Architecture Diagram
 ## RoadBlock Faced and Solved
 1.Make sure your lambda function is working correctly\
 2.Make sure first you are able to recieve data in Streams\
-3.Please check responses of API Gateway correctly.\
-4.Select the sensor according to your needs and make sure you have correct json format and corresponding representation accross lambda and data catalog query schema
+3.Please check the responses of API Gateway correctly.\
+4.Select the sensor according to your needs and make sure you have correct json format and corresponding representation across lambda and data catalog query schema.
+
+##Screenshot
+Architecture Diagram
+![Architecture Diagram](https://github.com/rahulpatel13/aws-end-to-end-live-data-streaming/blob/main/datastreaming)
+
